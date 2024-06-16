@@ -28,7 +28,7 @@ export class DefaultTransactionExecutor implements TransactionExecutor {
       preflightCommitment: this.connection.commitment,
     });
   }
-
+//proerly handles transactions
   private async confirm(signature: string, latestBlockhash: BlockhashWithExpiryBlockHeight) {
     const confirmation = await this.connection.confirmTransaction(
       {
