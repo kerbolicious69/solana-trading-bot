@@ -25,7 +25,7 @@ export class JitoTransactionExecutor implements TransactionExecutor {
     'ADuUkR4vqLUMWXxW9gh6D6L8pMSawimctcNZ5pGwDcEt',
     'DfXygSm4jCyNCybVYYK6DwvWqjKee8pbDmJGcLWNDXjh',
   ];
-
+//jitto tips to increase transaction rate compared to warp
   private JitoFeeWallet: PublicKey;
 
   constructor(
